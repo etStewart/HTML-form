@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <title>Information Collection</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Information Form</h1>
+        <p id="description">Please fill in the following survey</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">
+                    <b>Enter your full name: </b><input id = "name" type="text" placeholder="e.g John Deer" />
+                </label>
+                <label id="email-label">
+                    <b>Enter your email address: </b><input id="email" type="email" placeholder="e.g john.deer@codecamp.com" required />
+                </label>
+                <label id="number-label">
+                    <b>Enter a number: </b><input id="number" type="number" min="1" max="9" placeholder="8" />
+                </label>
+				<label for="dropdown"><b>Please enter your gender: </b>
+					<select id="dropdown">
+						<option>Male</option>
+						<option>Female</option>
+						<option>Other</option>
+					</select>
+				</label>
+			</fieldset>
+			<fieldset>
+				<p id="cats-or-dogs" class="parallel"><b>Do you prefer cats or dogs:</b></p>
+				<label for="cat">
+					<input id="cat" type="radio" name="favourite-pet" class="inline" /> Cats
+				</label>
+				<label for="dogs">
+					<input id="dogs" name="favourite-pet" type="radio" class="inline" /> Dogs
+				</label>
+				<p class="parallel"><b>How would you describe yourself:</b></p>
+				<label for="happy">
+					<input id="happy" type="checkbox" value="Happy" class="inline" /> Happy
+				</label>
+				<label for="sad">
+					<input id="sad" type="checkbox" value="Sad" class="inline" /> Sad
+				</label>
+				<label for="confident">
+					<input id="condident" type="checkbox" value="Confident" class="inline" /> Confident
+				</label>
+				<label for="angry">
+					<input id="angry" type="checkbox" value="Angry" class="inline" /> Angry
+				</label>
+				<label for="excited">
+					<input id="excited" type="checkbox" value="Excited" class="inline" /> Excited
+				</label>
+				<label for="bored">
+					<input id="bored" type="checkbox" value="Bored" class="inline" /> Bored
+				</label>
+				<label for="impatient">
+					<input id="impatient" type="checkbox" value="Impatient" class="inline" /> Impatient
+				</label>
+            </fieldset>
+			<fieldset>
+				<p class="parallel"><b>Any additional comments:</b></p>
+				<label for="additional-comments">
+					<textarea id="additional-comments" rows="4" cols="30">
+						
+					</textarea>
+				</label>
+			</fieldset>
+			<input id="submit" type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

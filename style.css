@@ -1,0 +1,85 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-color: darkred;
+    color: #f5f6f7;
+}
+
+h1, p {
+	margin: 1em auto;
+	text-align: center;
+}
+
+
+
+label {
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+form {
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+fieldset {
+	border: none;
+	padding: 2rem 0;
+	border-bottom: 5px solid maroon;
+}
+
+fieldset:last-of-type {
+	border-bottom: none;
+}
+
+label {
+	display: block;
+	margin: 0.5rem 0;
+}
+
+input, textarea, select {
+	margin: 10px 0 0 0;
+	width: auto;
+	min-height: 2em;
+}
+
+.inline {
+	width: unset;
+	margin: auto;
+	vertical-align: middle;
+}
+
+input, textarea {
+	background-color: maroon;
+	border: 1px solid maroon;
+	color: white;
+}
+
+textarea {
+	vertical-align: text-top;
+	padding-top: 0;
+}
+
+.parallel {
+	text-align: left;
+}
+
+#submit {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: maroon;
+	border-color: white;
+	min-width: 300px
+}
+
+#name, #email {
+	width: 70%
+}
